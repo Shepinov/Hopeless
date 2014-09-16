@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{58011187-529C-11C0-BB02-FE4F86D1CFD5}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Hopeless\Art\Objects\Objetos5\AstarPathfindingProject\Core\Misc\AstarEnumFlagAttr.cs" />
+     <Compile Include="Assets\Hopeless\Art\Objects\Objetos5\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs" />
+     <Compile Include="Assets\Hopeless\Art\Objects\Objetos5\AstarPathfindingProject\Core\Serialization\SimpleJsonReplacement.cs" />
+     <Compile Include="Assets\Hopeless\Art\Objects\Objetos5\AstarPathfindingProject\Core\Serialization\SimpleZipReplacement.cs" />
+     <Compile Include="Assets\Hopeless\Source\DoorSecureAccessManager.cs" />
+     <Compile Include="Assets\Hopeless\Source\Elevator1_Toggle_Doors.cs" />
+     <Compile Include="Assets\Hopeless\Source\Scripts\FootStep.cs" />
+     <Compile Include="Assets\Hopeless\Source\SuperElevatorSystem.cs" />
+     <Compile Include="Assets\Shooter AI\Animations\RagdollBack\Scripts\RagdollHelper.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\AI\AIPath.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\AI\Seeker.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\AstarData.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\AstarMath.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\AstarPath.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\GraphUpdateScene.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\GraphUpdateShape.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\AnimationLink.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\AstarDebugger.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\BinaryHeap.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\GraphEditorBase.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\GraphModifier.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\Int3.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\ListPool.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\NodeLink.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\NodeLink2.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\NodeLink3.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\ObjectPool.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\PathPool.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\StackPool.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Misc\ThreadControlQueue.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Nodes\GraphNode.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Path.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\PathHandler.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Serialization\JsonConverters.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\Serialization\JsonSerializer.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Core\astarclasses.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralGridMover.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralWorld.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\ExampleScripts\AIFollow.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\ExampleScripts\AstarSmoothFollow2.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\ExampleScripts\DoorController.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\ExampleScripts\DynamicGridObstacle.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAI.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\ExampleScripts\ObjectPlacer.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\ExampleScripts\TargetMover.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\Base.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\GridGenerator.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\NavMeshGenerator.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\NodeClasses\GridNode.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\NodeClasses\PointNode.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\NodeClasses\TriangleMeshNode.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\PointGenerator.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\QuadtreeGraph.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\Utilities\BBTree.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\Utilities\NavMeshRenderer.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Generators\Utilities\ObjImporter.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Modifiers\AlternativePath.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Modifiers\FunnelModifier.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Modifiers\Modifiers.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Modifiers\RaycastModifier.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Modifiers\SimpleSmoothModifier.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Modifiers\StartEndModifier.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Navmesh\RelevantGraphSurface.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Pathfinders\ABPath.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\AstarChecksum.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\AstarMemory.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\AstarParallel.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\AstarProfiler.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\DotNetReplacements.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\GraphUpdateUtilities.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\LockFreeStack.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\PathUtilities.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\SizeProfiler.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
+     <Compile Include="Assets\Shooter AI\AstarPathfindingProject\changelog.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\ManagingScripts\AIMovementController.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\ManagingScripts\AIMovementControllerASTAR.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\ManagingScripts\AIMovementSwitcher.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\ManagingScripts\AIStateManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\ManagingScripts\TEST.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\Patrol\PatrolManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\Patrol\PatrolWaypointManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\Patrol\TestPatrolMovement.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\SAIDropPrefabs.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\SearchCover.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\Sensor\Auditory.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\Sensor\EarsFindClosestObject.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\Sensor\Sight.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\Sensor\SightFindClosestObject.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\TestCover.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\VisualChecks\VisualCheckTemplate.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\VisualChecks\VisualCheckTutorial.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\WeaponsSystem\AIWeaponController.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\WeaponsSystem\AIWeaponMeleeAttack.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\WeaponsSystem\AIWeaponSelected.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\AI\Actions\WeaponsSystem\AIWeaponShoot.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\IK\HandIK.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\IK\HandTest.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\IK\IKFreeManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\IK\IKHeadFollowCamera.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\IKFree\Scripts\ElbowTarget.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\IKFree\Scripts\IKLimb.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\ShooterAIReferenceObject.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\ShooterAITransformPositionReference.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Animation\Test.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Audio\ShooterAIAudioControl.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Camera\MouseLook.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Camera\ReloadAnimation.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\CTF.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\CleanUpAfterDeath.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\Flag.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\FlagManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\FlagWaypoints.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\GenericSpawnManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\Respawner.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\ScoreBoard.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\SpawnManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Capture The Flag\baseCapture.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\EditorGUI\AIControllerChild.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\EditorGUI\AIWeaponControllerChild.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\FPS Controller\FPSWalkerEnhanced.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\FPS Controller\RotateOnlyYAxis.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\FPS Controller\ShooterAIFPSGUI.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\FPS Controller\ShooterAIFPSHealth.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\FPS Controller\TransformFollowTarget.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\FPS Controller\WeaponControl.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\FPS Controller\WeaponScript.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Fixes\DemoShowText.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Fixes\DontGoThroughThings.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\HealthSystem\AIHealthExecuter.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\HealthSystem\BulletHealthExtras.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\HealthSystem\DetectHitManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\HealthSystem\Detecthit.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\HealthSystem\HealthManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\LOD\SAILODManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Navigation\LocationManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\Navigation\ShooterAIPathFinder.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\StrategyScripts\ShooterAIStrategyCloseTogether.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\TeamOverview\ShooterAIMultipleTeams.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\TeamOverview\ShooterAITeamOverview.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\WeaponSystem\Ammo\AmmoMain.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\WeaponSystem\Ammo\LightFlicker.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\WeaponSystem\BulletAutoDestroy.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\WeaponSystem\BulletMeleeScript.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\WeaponSystem\MuzzleFlashManager.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\WeaponSystem\TravelWithObject.cs" />
+     <Compile Include="Assets\Shooter AI\Scripts\WeaponSystem\Zoom.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_FloatFieldAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_HelpBoxAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_ItemAmountAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_ItemIDAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_ItemTypeAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_PropertyDrawerUtility.cs.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_SeparatorAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_Component.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_ComponentPreset.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_State.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_StateManager.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Activity.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Attempt.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Event.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_EventDump.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_EventHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_GlobalEvent.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Message.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_StateEventHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_TargetEvent.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Value.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Help\vp_Help.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Help\vp_UFPSHelp.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Billboard.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Bob.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Perlin.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_RigidbodyImpulse.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Spin.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Spring.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_3DUtility.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_AudioUtility.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Gizmo.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Input.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Layer.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_MathUtility.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_PoolManager.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_TimeUtility.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Timer.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Utility.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_WaypointGizmo.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_DemoManager.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_DoomsDayDevice.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemo1.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemo2.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemo3.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemoManager.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_Debris.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_DecalManager.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_MuzzleFlash.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_PulsingLight.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_Shell.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\GUI\vp_SimpleCrosshair.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\GUI\vp_SimpleHUD.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\AI\vp_SimpleAITurret.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_DamageHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_Explosion.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_HitscanBullet.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_Shooter.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventoryCapsAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventoryItemsAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventorySpaceAttribute.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_CustomType.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_ItemType.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_UnitBankType.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_UnitType.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_Inventory.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemIdentifier.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemInstance.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemPickup.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_UnitBankInstance.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\MovingPlatform\vp_MovingPlatform.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_Placement.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_RandomSpawner.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_Respawner.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_SpawnPoint.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\FootstepManager\vp_FootstepManager.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\FootstepManager\vp_SurfaceIdentifier.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Climb.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Grab.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Interactable.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_PlatformSwitch.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Switch.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\Pickups\vp_AmmoPickup.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\Pickups\vp_HealthPickup.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\Pickups\vp_Pickup.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\Pickups\vp_SlomoPickup.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\Pickups\vp_SpeedPickup.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\Pickups\vp_WeaponPickup.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\vp_SimpleInventory.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_Earthquake.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPCamera.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPController.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPInput.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPInteractManager.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPInventory.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPistolReloader.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPlayerDamageHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPlayerEventHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeapon.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponMeleeAttack.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponReloader.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponShooter.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerDamageHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerEventHandler.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerRespawner.cs" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFShooter.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDead.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerCrouch.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverCrouch.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraSlideFast.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ArtilleryController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingRight.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspOldWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Shooter AI\Scripts\Animation\IKFree\Readme.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerFreeze.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\StompingCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeaponCrouch.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullLeft.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerCrouch.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverRun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaShooter.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload2.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SmackController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUpLeft.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\Plugins\DotNetZip\License.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Weapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\FreezeController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingDown.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDefault.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Camera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolverZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotMuzzleWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DefaultCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDown.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DefaultWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUpRight.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistol.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUp.txt" />
+     <None Include="Assets\UFPS\Base\Content\Art\Weapons\Source\BasicArms\BasicArmsReadMe.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkWeapon.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullRight.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernShooter.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileCamera.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingLeft.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistol.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\Plugins\dependencies.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunReload.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ArtilleryCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolCrouch.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\_Example Scenes.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraCrouch.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyShooter.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingDownLeft.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFController.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullDown.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolWeapon.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\Readme_upgrading.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerMegaSpeed.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingUp.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechWeaponZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToRight.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingDownRight.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotChestWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownLeft.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraZoom.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\Readme.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeaponGlideIn.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspOldCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolShooter.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechShooter.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToLeft.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotElbowWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCameraCrouch.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\Plugins\JsonFx\License.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeaponZoom.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernWeapon.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernControllerZoom.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToUp.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernShooterZoom.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraSlide.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyShooterZoom.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolController.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautController.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretShooter.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperShooter.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponCrouch.txt" />
+     <None Include="Assets\Shooter AI\AstarPathfindingProject\link.xml" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\FreezeCamera.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotWristWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SimpleAIShooter.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautWeapon.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverSlideFast.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownRight.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDefault.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/HopeLess-Unity/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/HopeLess-Unity/Assets/Shooter AI/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>C:/HopeLess-Unity/Assets/Shooter AI/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{6B861CFD-E64A-16D4-705F-0DF22C1F9A66}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
